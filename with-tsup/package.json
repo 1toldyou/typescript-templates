@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "tsup --watch --config tsup-dev.config.ts",
+    "run": "node build/index.cjs",
     "build": "tsup --config tsup-build.config.ts",
-    "run": "node dist/index.cjs",
+    "start": "node dist/index.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
